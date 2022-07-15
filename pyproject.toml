@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "upset2d"
+version = "0.1.0"
+description = "Visualize hypergraphs as two dimensional matrices"
+authors = ["Morteza Ansarinia <ansarinia@me.com>"]
+readme = "README.md"
+homepage = "https://github.com/morteza/upset2d"
+repository = "https://github.com/morteza/upset2d"
+keywords = ["visualization", "hypergraph", "UpSet"]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+matplotlib = "^3.5.2"
+pandas = "^1.4"
+seaborn = "^0.11.2"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+pytest = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
