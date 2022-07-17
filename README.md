@@ -4,3 +4,9 @@
 
 **The package is a work-in-progress**. There are bugs, and example notebooks are missing. If you want to use this package, expect to make changes.
 
+## Example
+
+The following UpSet2D plot shows the [CogText task-construct hypergraph](https://github.com/morteza/cogtext). Rows are the nodes of the graph, i.e., cognitive tasks, and columns are the hyper-edges, i.e., cognitive constructs. Colors and annotations have been manually added to the figure.
+
+![CogText Task-Construct Map](examples/images/cogtext.png)
+
